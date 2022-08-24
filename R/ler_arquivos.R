@@ -19,7 +19,7 @@ ler_arquivos =
                                "text", "text","text","text", "text",
                                "text", "text","text","text", "text",
                                "text", "text","text","date", "text")
-               ) |> dplyr::mutate(Origem = origens(paths)) |> 
+               ) |> dplyr::mutate(Origem = arrumar_origem(paths)) |> 
                  dplyr::select(
                    Origem,
                    Analista = 1,
