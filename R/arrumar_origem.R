@@ -15,7 +15,7 @@ arrumar_origem = function(paths) {
 
   pos2 = paths |> stringi::stri_locate(regex = ".xlsx")
 
-  origin = path_tidy |>
+  origin = paths |>
     stringr::str_sub({
       pos1[2] + 2
     }, {
