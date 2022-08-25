@@ -114,6 +114,10 @@ consolidar_arquivos = function() {
   df6 = purrr::map_df(1:n,
                       ~ ler_arquivos(paths[.x], n_sheet))
 
+  df6 = df6 |>
+    dplyr::mutate(Origem = Origem |> stringr::str_replace("- ",""))
+
+
   rm(paths,n_sheet,n)
 
 

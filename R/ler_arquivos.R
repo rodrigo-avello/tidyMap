@@ -58,11 +58,14 @@ ler_arquivos =
           Obs. = 20
         ) |>
         dplyr::mutate(
+          Data = Data |> as.Date(),
+          Retorno = Retorno |> as.Date(),
           Obs. = stringi::stri_trans_general(str = Obs., id = "Latin-ASCII"),
           Origem = stringi::stri_trans_general(str = Origem, id = "Latin-ASCII"),
           Familia = stringi::stri_trans_general(str = Familia, id = "Latin-ASCII"),
           Empresa = stringi::stri_trans_general(str = Empresa, id = "Latin-ASCII"),
           Analista = stringi::stri_trans_general(str = Analista, id = "Latin-ASCII"),
+          Analista = Analista |> stringr::str_to_upper(),
           Job = stringi::stri_trans_general(str = Job, id = "Latin-ASCII"),
           Elementar = stringi::stri_trans_general(str = Elementar, id = "Latin-ASCII"),
           Empresa = stringi::stri_trans_general(str = Empresa, id = "Latin-ASCII"),

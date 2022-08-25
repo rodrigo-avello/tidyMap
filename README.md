@@ -1,3 +1,3 @@
 # pktmapeamento
 
-Consolida as planilhas de mapeamento num formato 'tidy'.
+Consolida as planilhas de mapeamento em um formato 'tidy'.

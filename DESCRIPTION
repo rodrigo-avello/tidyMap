@@ -1,5 +1,5 @@
 Package: pktmapeamento
-Title: PKT_MAPEAMENTO 
+Title: Consolida as planilhas de mapeamento em um formato 'tidy'. 
 Version: 0.0.0.9000
 Authors@R: 
     person("Winicius", "Faquieri", , "winicius.faquieri@fgv.br", role = c("aut", "cre"),
