@@ -1,11 +1,11 @@
 Package: pktmapeamento
-Title: PCK_MAPEAMENTO 
+Title: PKT_MAPEAMENTO 
 Version: 0.0.0.9000
 Authors@R: 
     person("Winicius", "Faquieri", , "winicius.faquieri@fgv.br", role = c("aut", "cre"),
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: Consolida as planilhas de mapeamento num formato tidy.
-License: `use_mit_license()`
+Description: Consolida as planilhas de mapeamento num formato 'tidy'.
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.1

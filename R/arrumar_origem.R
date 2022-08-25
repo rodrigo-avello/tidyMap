@@ -10,7 +10,7 @@
 # Define função para indicar no arquivo final a origem de cada informação: 
 arrumar_origem = function(paths) {
   
-  pos1 = paths |> stringi::stri_locate(regex = "Mapeamento")
+  pos1 = paths |> stringr::str_to_title() |> stringi::stri_locate(regex = "Mapeamento")
   pos2 = paths |> stringi::stri_locate(regex = ".xlsx")
   
   

@@ -1,2 +1,3 @@
 # pktmapeamento
-Ler os arquivos de mapeamento, arruma e consolida.
+
+Consolida as planilhas de mapeamento num formato 'tidy'.
