@@ -1,6 +1,6 @@
 Package: pktmapeamento
 Title: Consolida as planilhas de mapeamento em um formato 'tidy'. 
-Version: 0.0.0.9000
+Version: 0.0.0.9001
 Authors@R: 
     person("Winicius", "Faquieri", , "winicius.faquieri@fgv.br", role = c("aut", "cre"),
            comment = c(ORCID = "YOUR-ORCID-ID"))
