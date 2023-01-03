@@ -8,7 +8,6 @@
 #' @export
 
 
-
 consolidar_arquivos = function() {
   ## Define o caminho dos arquivos de mapeamento:
 
@@ -17,7 +16,8 @@ consolidar_arquivos = function() {
     "../3-SCO e EPE/2-EPE/Mapeamento-EPE.xlsx",
     "../3-SCO e EPE/1-SCO/Mapeamento-SCO.xlsx",
     "../2-SIMG/2-SIMG ÍNDICE/Mapeamento-SIMG ÍNDICE.xlsx",
-    "../4-IPA e INCC/Mapeamento-IPA e INCC.xlsx"
+    "../4-IPA e INCC/Mapeamento-IPA e INCC.xlsx",
+    "../2-SIMG/1-SIMG PREÇO/13-DNIT (SICRO)/EST_VAREJO (Projeto Estudo Varejo DNIT)/Mapeamento_EST_VAREJO.xlsx"
   )
 
   n_sheet = 1
