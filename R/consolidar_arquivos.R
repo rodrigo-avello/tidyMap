@@ -16,8 +16,7 @@ consolidar_arquivos = function() {
     "../3-SCO e EPE/2-EPE/Mapeamento-EPE.xlsx",
     "../3-SCO e EPE/1-SCO/Mapeamento-SCO.xlsx",
     "../2-SIMG/2-SIMG ÍNDICE/Mapeamento-SIMG ÍNDICE.xlsx",
-    "../4-IPA e INCC/Mapeamento-IPA e INCC.xlsx",
-    "../2-SIMG/1-SIMG PREÇO/13-DNIT (SICRO)/EST_VAREJO (Projeto Estudo Varejo DNIT)/Mapeamento_EST_VAREJO.xlsx"
+    "../4-IPA e INCC/Mapeamento-IPA e INCC.xlsx"
   )
 
   n_sheet = 1
@@ -32,9 +31,6 @@ consolidar_arquivos = function() {
 
   # Arquivos com 2 sheets:
   paths = c(
-    "../2-SIMG/1-SIMG PREÇO/12-ECON_DNIT/Mapeamento_ECON_DNIT.xlsx",
-    "../2-SIMG/1-SIMG PREÇO/13-DNIT (SICRO)/Mapeamento_SICRO.xlsx",
-    "../2-SIMG/1-SIMG PREÇO/14-DMT/Mapeamento_DMT.xlsx",
     "../2-SIMG/1-SIMG PREÇO/15-INFRAES/Mapeamento_INFRAES.xlsx",
     "../2-SIMG/1-SIMG PREÇO/16-SICFER/Mapeamento_SICFER.xlsx",
     "../2-SIMG/1-SIMG PREÇO/11-SABESP/Mapeamento_SABESP.xlsx"
@@ -53,16 +49,20 @@ consolidar_arquivos = function() {
 
 
   # Arquivos com 3 sheets:
-  # paths = "../2-SIMG/1-SIMG PREÇO/3-Projeto melhoria amostral parte 3 - DNIT-ANTT (Planilha prioridades)/Mapeamento (Projeto de melhoria amostral parte 3 - DNIT-ANTT).xlsx"
-  #
-  # n_sheet = 3
-  #
-  # n = length(paths)
-  #
-  # df3 = purrr::map_df(1:n,
-  #                     ~ ler_arquivos(paths[.x], n_sheet))
-  #
-  # rm(paths,n_sheet,n)
+paths = c(
+  "../2-SIMG/1-SIMG PREÇO/12-ECON_DNIT/Mapeamento_ECON_DNIT.xlsx",
+  "../2-SIMG/1-SIMG PREÇO/13-DNIT (SICRO)/Mapeamento_SICRO.xlsx",
+  "../2-SIMG/1-SIMG PREÇO/14-DMT/Mapeamento_DMT.xlsx",
+  "../2-SIMG/1-SIMG PREÇO/13-DNIT (SICRO)/EST_VAREJO (Projeto Estudo Varejo DNIT)/Mapeamento_EST_VAREJO.xlsx"  
+  )
+  
+   n_sheet = 3
+  
+   n = length(paths)
+  
+   df3 = purrr::map_df(1:n, ~ ler_arquivos(paths[.x], n_sheet))
+  
+  rm(paths,n_sheet,n)
 
 
 
@@ -117,7 +117,7 @@ consolidar_arquivos = function() {
 
 
 
-  df_all = dplyr::bind_rows(df1,df2,df4,df5,df6)
+  df_all = dplyr::bind_rows(df1,df2,df3,df4,df5,df6)
 
   rm(df1,df2,df4,df5,df6)
 
