@@ -1,0 +1,3 @@
+Detalhamento do pedido:
+- ​Atualizar o aplicativo de mapeamento com os arquivos do SICRO - arquivo Mapeamento_SICRO (2023) e Mapeamento_SICRO (2018 a 2022), disponíveis no caminho \\fgvfsbi\ibre-sci-sapr\Setorial Análise\. 1-SETORIAL CONSTRUÇÃO E INDÚSTRIA\2-SIMG\1-SIMG PREÇO\13-DNIT (SICRO). O aplicativo já tem uma planilha de mapeamento do SICRO, porém, por conta do manuseio, foi necessário dividi-la em 2 planilhas Mapeamento_SICRO (2018 a 2022) e Mapeamento_SICRO (2023).
+Lembrar que o aplicativo só deve ler as 20 primeiras colunas, já que as demais são controle interno.
