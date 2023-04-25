@@ -1,4 +1,4 @@
-Package: pkgmapeamento
+Package: tidyMap
 Title: Consolida as planilhas de mapeamento em um formato 'tidy'. 
 Version: 0.0.0.9001
 Authors@R: 
