@@ -31,8 +31,8 @@ consolidar_arquivos = function() {
 
   # Arquivos com 2 sheets:
   paths = c(
-    "../2-SIMG/1-SIMG PREÇO/15-INFRAES/Mapeamento_INFRAES.xlsx",
-    "../2-SIMG/1-SIMG PREÇO/16-SICFER/Mapeamento_SICFER.xlsx",
+    "../2-SIMG/1-SIMG PREÇO/14-INFRAES/Mapeamento_INFRAES.xlsx",
+    "../2-SIMG/1-SIMG PREÇO/15-SICFER/Mapeamento_SICFER.xlsx",
     "../2-SIMG/1-SIMG PREÇO/11-SABESP/Mapeamento_SABESP.xlsx"
   )
 
@@ -54,7 +54,6 @@ paths = c(
   # "../2-SIMG/1-SIMG PREÇO/13-DNIT (SICRO)/Mapeamento_SICRO.xlsx",
   "../2-SIMG/1-SIMG PREÇO/13-DNIT (SICRO)/Mapeamento_SICRO (2018 a 2022).xlsx",
   "../2-SIMG/1-SIMG PREÇO/13-DNIT (SICRO)/Mapeamento_SICRO (2023).xlsx",
-  "../2-SIMG/1-SIMG PREÇO/14-DMT/Mapeamento_DMT.xlsx",
   "../2-SIMG/1-SIMG PREÇO/13-DNIT (SICRO)/EST_VAREJO (Projeto Estudo Varejo DNIT)/Mapeamento_EST_VAREJO.xlsx"  
   )
   
