@@ -45,6 +45,7 @@ ler_arquivos =
           Data = 2,
           Job = 3,
           Elementar = 4,
+          Item = 6,
           Familia = 5,
           UF_Preco = 9,
           `Abert/Ampl` = 10,
@@ -73,7 +74,8 @@ ler_arquivos =
           UF_Escritorio = stringi::stri_trans_general(str = UF_Escritorio, id = "Latin-ASCII"),
           Coletor = stringi::stri_trans_general(str = Coletor, id = "Latin-ASCII"),
           Coletor = stringi::stri_trans_general(str = Coletor, id = "Latin-ASCII"),
-          `Abert/Ampl` = stringi::stri_trans_general(str = `Abert/Ampl`, id = "Latin-ASCII")
+          `Abert/Ampl` = stringi::stri_trans_general(str = `Abert/Ampl`, id = "Latin-ASCII"),
+          Item = stringi::stri_trans_general(str = Item, id = "Latin-ASCII")
         )
     )
   }
