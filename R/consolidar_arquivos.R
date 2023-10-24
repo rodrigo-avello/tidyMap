@@ -90,14 +90,14 @@ paths = c(
   #paths = "../2-SIMG/1-SIMG PREÇO/9-GOINFRA/Mapeamento_GOINFRA.xlsx"
 
   #n_sheet = 5
-  #n_sheet = 2
+  n_sheet = 2
 
-  #n = length(paths)
+  n = length(paths)
 
-  #df5 = purrr::map_df(1:n,
-  #                    ~ ler_arquivos(paths[.x], n_sheet))
+  df5 = purrr::map_df(1:n,
+                      ~ ler_arquivos(paths[.x], n_sheet))
 
-  #rm(paths,n_sheet,n)
+  rm(paths,n_sheet,n)
 
 
 
@@ -122,9 +122,9 @@ paths = c(
 
 
 
-  df_all = dplyr::bind_rows(df1,df2,df3,df4,df6)
+  df_all = dplyr::bind_rows(df1,df2,df3,df4,df5,df6)
 
-  rm(df1,df2,df4,df6)
+  rm(df1,df2,df4,df5,df6)
 
 
 
