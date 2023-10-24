@@ -69,7 +69,10 @@ paths = c(
 
 
   #  Arquivos com 4 sheets:
-  paths = "../2-SIMG/1-SIMG PREÇO/10-DER_MG/Mapeamento_DER_MG.xlsx"
+  paths = c(
+    "../2-SIMG/1-SIMG PREÇO/10-DER_MG/Mapeamento_DER_MG_2022.xlsx",
+    "../2-SIMG/1-SIMG PREÇO/10-DER_MG/Mapeamento_DER_MG_2023.xlsx"
+    )
 
   n_sheet = 4
 
@@ -83,10 +86,11 @@ paths = c(
 
 
 
-  #  Arquivos com 5 sheets:
+  #  Arquivos com 5 sheets: (Atualizado para 2 sheets em 24/10/2023)
   paths = "../2-SIMG/1-SIMG PREÇO/9-GOINFRA/Mapeamento_GOINFRA.xlsx"
 
-  n_sheet = 5
+  #n_sheet = 5
+  n_sheet = 2
 
   n = length(paths)
 
