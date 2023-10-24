@@ -33,7 +33,8 @@ consolidar_arquivos = function() {
   paths = c(
     "../2-SIMG/1-SIMG PREÇO/14-INFRAES/Mapeamento_INFRAES.xlsx",
     "../2-SIMG/1-SIMG PREÇO/15-SICFER/Mapeamento_SICFER.xlsx",
-    "../2-SIMG/1-SIMG PREÇO/11-SABESP/Mapeamento_SABESP.xlsx"
+    "../2-SIMG/1-SIMG PREÇO/11-SABESP/Mapeamento_SABESP.xlsx",
+    "../2-SIMG/1-SIMG PREÇO/10-DER_MG/Mapeamento_DER_MG_2023.xlsx"
   )
 
   n_sheet = 2
@@ -70,8 +71,7 @@ paths = c(
 
   #  Arquivos com 4 sheets:
   paths = c(
-    "../2-SIMG/1-SIMG PREÇO/10-DER_MG/Mapeamento_DER_MG_2022.xlsx",
-    "../2-SIMG/1-SIMG PREÇO/10-DER_MG/Mapeamento_DER_MG_2023.xlsx"
+    "../2-SIMG/1-SIMG PREÇO/10-DER_MG/Mapeamento_DER_MG_2022.xlsx"
     )
 
   n_sheet = 4
