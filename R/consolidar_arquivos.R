@@ -87,7 +87,7 @@ paths = c(
 
 
   #  Arquivos com 5 sheets: (Atualizado para 2 sheets em 24/10/2023)
-  #paths = "../2-SIMG/1-SIMG PREÇO/9-GOINFRA/Mapeamento_GOINFRA.xlsx"
+  paths = "../2-SIMG/1-SIMG PREÇO/9-GOINFRA/Mapeamento_GOINFRA.xlsx"
 
   #n_sheet = 5
   n_sheet = 2
