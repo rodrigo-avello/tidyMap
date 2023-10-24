@@ -87,17 +87,17 @@ paths = c(
 
 
   #  Arquivos com 5 sheets: (Atualizado para 2 sheets em 24/10/2023)
-  paths = "../2-SIMG/1-SIMG PREÇO/9-GOINFRA/Mapeamento_GOINFRA.xlsx"
+  #paths = "../2-SIMG/1-SIMG PREÇO/9-GOINFRA/Mapeamento_GOINFRA.xlsx"
 
   #n_sheet = 5
-  n_sheet = 2
+  #n_sheet = 2
 
-  n = length(paths)
+  #n = length(paths)
 
-  df5 = purrr::map_df(1:n,
-                      ~ ler_arquivos(paths[.x], n_sheet))
+  #df5 = purrr::map_df(1:n,
+  #                    ~ ler_arquivos(paths[.x], n_sheet))
 
-  rm(paths,n_sheet,n)
+  #rm(paths,n_sheet,n)
 
 
 
