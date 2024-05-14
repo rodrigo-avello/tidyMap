@@ -57,7 +57,9 @@ paths = c(
   # "../2-SIMG/1-SIMG PREÇO/13-DNIT (SICRO)/Mapeamento_SICRO.xlsx",
   "../2-SIMG/1-SIMG PREÇO/13-DNIT (SICRO)/Mapeamento_SICRO (2018 a 2022).xlsx",
   "../2-SIMG/1-SIMG PREÇO/13-DNIT (SICRO)/Mapeamento_SICRO (2023).xlsx",
-  "../2-SIMG/1-SIMG PREÇO/13-DNIT (SICRO)/EST_VAREJO (Projeto Estudo Varejo DNIT)/Mapeamento_EST_VAREJO.xlsx"  
+  "../2-SIMG/1-SIMG PREÇO/13-DNIT (SICRO)/EST_VAREJO (Projeto Estudo Varejo DNIT)/Mapeamento_EST_VAREJO.xlsx",
+  "../2-SIMG/1-SIMG PREÇO/19-DER_SP/Mapeamento_DER_SP.xlsx",
+  "../2-SIMG/1-SIMG PREÇO/20-SANEAGO/Mapeamento_SANEAGO.xlsx"
   )
   
    n_sheet = 3
