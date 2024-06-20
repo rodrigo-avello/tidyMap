@@ -36,7 +36,8 @@ consolidar_arquivos = function() {
     "../2-SIMG/1-SIMG PREÇO/11-SABESP/Mapeamento_SABESP.xlsx",
     "../2-SIMG/1-SIMG PREÇO/10-DER_MG/Mapeamento_DER_MG_2023.xlsx",
     "../2-SIMG/1-SIMG PREÇO/18-FGV Transportes/Mapeamento_FGV_Transportes.xlsx",
-    "../2-SIMG/1-SIMG PREÇO/17-CAGECE/Mapeamento_CAGECE.xlsx"
+    "../2-SIMG/1-SIMG PREÇO/17-CAGECE/Mapeamento_CAGECE.xlsx",
+  "../2-SIMG/1-SIMG PREÇO/20-SANEAGO/Mapeamento_SANEAGO.xlsx"
   )
 
   n_sheet = 2
@@ -58,8 +59,7 @@ paths = c(
   "../2-SIMG/1-SIMG PREÇO/13-DNIT (SICRO)/Mapeamento_SICRO (2018 a 2022).xlsx",
   "../2-SIMG/1-SIMG PREÇO/13-DNIT (SICRO)/Mapeamento_SICRO (2023).xlsx",
   "../2-SIMG/1-SIMG PREÇO/13-DNIT (SICRO)/EST_VAREJO (Projeto Estudo Varejo DNIT)/Mapeamento_EST_VAREJO.xlsx",
-  "../2-SIMG/1-SIMG PREÇO/19-DER_SP/Mapeamento_DER_SP.xlsx",
-  "../2-SIMG/1-SIMG PREÇO/20-SANEAGO/Mapeamento_SANEAGO.xlsx"
+  "../2-SIMG/1-SIMG PREÇO/19-DER_SP/Mapeamento_DER_SP.xlsx"
   )
   
    n_sheet = 3
